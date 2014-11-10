@@ -1,0 +1,9 @@
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+**.orig
+*.log
+
+.DS_Store
+.DS_Store?
+config.json
