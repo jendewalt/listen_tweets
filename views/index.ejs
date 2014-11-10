@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
+    <title>#ListenAi Tweets</title>
+    <link rel='stylesheet' href='/stylesheets/_reset.css' />
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
 
+    <script src="/javascripts/disapproval.js"></script>
+    <script src="/javascripts/moment.js"></script>
     <script src="/javascripts/init.js"></script>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>#ListenAi</h1>
+    <h3>A chart of tweets about the Listen 2014 conference (from 8am Nov. 6 - 12pm Nov. 8)</h3>
+    <div id="tweet_chart"></div>
+    <footer>A little hack by Jen Dewalt :)</footer>
   </body>
 </html>
